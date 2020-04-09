@@ -1,8 +1,16 @@
 # TugetherApp
 
+## Description - Eva Veskova
+
 The goal of this project is to connect people who want to find a coding partner to build projects.
 
-## Requirements
+## Objectives - Eva Veskova
+
+# General Objectives
+
+# Specific Objectives
+
+## Requirements - David Auza
 
 ### Functional Requirements
 
@@ -18,7 +26,12 @@ The goal of this project is to connect people who want to find a coding partner 
 
 2. System must be available 95% of the time.
 
-## User Stories
+## Use Cases - David Auza
+
+## Use Case Diagram - David Auza
+
+
+## User Stories - Aaron Newbold
 
 1. As a user I want to be able to sign up to the service so that I get access to other user's profiles.
 
@@ -29,7 +42,13 @@ technology.
 
 4. 
 
-## Entity Definition
+## Team Description - Aaron Newbold
+
+### Frontend Team
+
+### Backend Team
+
+## Entity Definition - Hugo Passos
 
 1. User: The individual using the application. 
 
@@ -39,7 +58,11 @@ technology.
 
 4. Timezone: The timezone a user lives in.
 
-## User Interface Proposal
+## Entity Relation Diagram - ERD - Hugo Passos
+
+## User Interface Proposal - Adebola Adeniran
+
+## Navigation Diagram - Andrés Rodríguez
 
 
 
