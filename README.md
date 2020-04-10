@@ -40,13 +40,37 @@ technology.
 
 3. As a user I want to be able to search for other users based on specific technologies so that I can invite them to my network.
 
-4. 
+4. As a user I want to be able to create new Posts to show off Projects.
+
+5. As a user I want to be able to comment on Posts.
+
+6. As a user I want to recieve notifications when someone comments on my Post or wants to link up.
+
+7. As a user I want to be able to send an instant message to a potential partner.
 
 ## Team Description - Aaron Newbold
 
-### Frontend Team
+### Front-end Team
+Handles the building of User Interfaces(UI) with a more direct influence to the User Experience (UX). This includes the webpages that the users will see and interact with in order to:
 
-### Backend Team
+1. Register/Sign-up
+2. Log-in
+3. Search for Technologies to Learn
+4. Search for other Users to collaborate with.
+5. Contact other Users.
+6. Links to Backend API which handles database.
+...
+
+
+### Back-end Team
+Handles the building of the Backend Application Program Interface (API) which provides the Front-end access to a database. Requests are made by the Front-end to GET, POST or UPDATE data which will then be handled and processed by the Back-end resulting in either the return or saving of data. The Back-end team will need to create: 
+
+1. Database models (Users, Technologies, ConnectedUsers, Notifications, Posts, Comments, InstantMessaging)
+  a. Model Associations. eg Post has many comments, Post has one author(User).
+2. Model Tests and Controller Tests.
+3. Controllers for all models.
+4. Routes for all controllers and request methods.
+...
 
 ## Entity Definition - Hugo Passos
 
