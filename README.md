@@ -63,7 +63,14 @@ Handles the building of the Backend Application Program Interface (API) which pr
 1. Database models (Users, Technologies, ConnectedUsers, Notifications, Posts, Comments, InstantMessaging)  
   a. Model Associations. eg Post has many comments, Post has one author(User).
 2. Model Tests and Controller Tests.
-3. Controllers for all models.
+3. Controllers for all models.  
+  a. User(or Sessions) Controller (Handles registration and logins)  
+  b. ConnectedUsers Controller (Handles User friending/connections)  
+  c. Technologies Controller (Handles Technology listing and search criterias)  
+  d. Notifications Controller...  
+  e. Posts Controller (Handles creation(POSTing), updating, deletion of posts)  
+  f. Comments Controller (Handles creation, updating and deletion of comments)  
+  g. InstantMessaging Controller (Handles messaging between users)
 4. Routes for all controllers and request methods.  
 ...
 
