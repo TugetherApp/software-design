@@ -33,20 +33,15 @@ The goal of this project is to connect people who want to find a coding partner 
 
 ## User Stories - Aaron Newbold
 
-1. As a user I want to be able to sign up to the service so that I get access to other user's profiles.
-
-2. As a user I want to be able to add the technologies I'm learning so that I can match with other users using the same 
+As a user I want to be able to:
+1. Sign up to the service so that I get access to other user's profiles.
+2. Add the technologies I'm learning so that I can match with other users using the same 
 technology.
-
-3. As a user I want to be able to search for other users based on specific technologies so that I can invite them to my network.
-
-4. As a user I want to be able to create new Posts to show off Projects.
-
-5. As a user I want to be able to comment on Posts.
-
-6. As a user I want to recieve notifications when someone comments on my Post or wants to link up.
-
-7. As a user I want to be able to send an instant message to a potential partner.
+3. Search for other users based on specific technologies so that I can invite them to my network.
+4. Create new Posts to show off Projects.
+5. Comment on Posts.
+6. Recieve notifications when someone comments on my Post or wants to link up.
+7. Send an instant message to a potential partner.
 
 ## Team Description - Aaron Newbold
 
@@ -58,18 +53,18 @@ Handles the building of User Interfaces(UI) with a more direct influence to the 
 3. Search for Technologies to Learn
 4. Search for other Users to collaborate with.
 5. Contact other Users.
-6. Links to Backend API which handles database.
+6. Links to Backend API which handles database.  
 ...
 
 
 ### Back-end Team
 Handles the building of the Backend Application Program Interface (API) which provides the Front-end access to a database. Requests are made by the Front-end to GET, POST or UPDATE data which will then be handled and processed by the Back-end resulting in either the return or saving of data. The Back-end team will need to create: 
 
-1. Database models (Users, Technologies, ConnectedUsers, Notifications, Posts, Comments, InstantMessaging)
+1. Database models (Users, Technologies, ConnectedUsers, Notifications, Posts, Comments, InstantMessaging)  
   a. Model Associations. eg Post has many comments, Post has one author(User).
 2. Model Tests and Controller Tests.
 3. Controllers for all models.
-4. Routes for all controllers and request methods.
+4. Routes for all controllers and request methods.  
 ...
 
 ## Entity Definition - Hugo Passos
